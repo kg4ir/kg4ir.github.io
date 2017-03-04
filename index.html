@@ -1,4 +1,143 @@
 <body>
 <h1>SIGIR Workshop KG4IR: Knowledge Graphs and Semantics for Text Retrieval and Analysis</h1>
 Welcome!
+  
+ <p>
+   Knowledge graphs have been used throughout the history of information retrieval for a variety of tasks. Technological advances in knowledge acquisition and alignment technology from the last few years gave rise to a body of new approaches for utilizing knowledge graphs in text retrieval tasks. It is therefore time to consolidate the community efforts in studying how knowledge graph technology can be employed in information retrieval systems in the most effective way. It is also time to start a dialogue with researchers working on knowledge acquisition and alignment to ensure that resulting technologies and algorithms meet the demands posed by information retrieval tasks.
+The goal of this workshop is to bring together a community of researchers and practitioners who are interested in using, aligning, and constructing knowledge graphs and similar semantic resources for information retrieval applications. 
+  </p>
+  
+  
+  <h1 id="motivation">Motivation</h1>
+<p>The past decade has witnessed the emergence of publicly available knowledge graphs (KGs) such as DBpedia, Freebase, and WikiData and also proprietary KGs such as Google’s Knowledge Graph and Microsoft’s Satori. The alignment, or grounding, of the semantics in external resources is a crucial step towards natural language understanding. Starting with the INEX <span class="citation"></span> and TREC initiatives <span class="citation"></span>, the tasks of entity linking and retrieval have resulted in successful approaches, enabling tools, and useful data sets in recent years <span class="citation"></span>. The availability of large knowledge graphs and grounding techniques have given rise to successful approaches for many information retrieval (IR) tasks and it has been shown that heterogeneous information in knowledge graphs and entity link annotations can help to significantly improve document ranking performance. In particular, the semantics encoded in knowledge graphs have been effectively integrated in various aspects of IR systems, including query representation <span class="citation"></span>, retrieval models <span class="citation"></span>, learning-to-rank <span class="citation"></span>, and improved document representations <span class="citation"></span>.</p>
+<p>However, the utilization of knowledge graphs in information retrieval still in its infancy. The community is actively working towards completing the understanding on how different kinds of information in a KG are utilized to achieve the best end-to-end system performance. Additionally, many open issues need to be tackled. One such issue is how to identify which of the many aspects of an entity are relevant for an information need—where an entity aspect can be represented through edges in the KG, words in a description, or associated types.</p>
+<p>Furthermore, research on the utilization of knowledge graphs is rather separated from research on KG acquisition and alignment. IR systems typically treat knowledge graphs as given and any alignment systems such as entity linkers as a black box. This leads to issues where utilization would benefit from recall-oriented annotations, but alignment systems are optimized for precision. One goal is to work towards acquisition and alignment techniques that are most appropriate to utilization in text retrieval tasks.</p>
+<p>This workshop aims to be the pivot of different interest groups including NLP and Linked Data, and bring together interested IR researchers working towards the final goal of (i) acquiring semantics considering the application’s needs, (ii) aligning efforts around KGs and texts towards end-to-end usage, and (iii) building information retrieval systems that factor in all upstream components.</p>
+<p>Furthermore, researchers working with knowledge graphs for information retrieval are currently without a community. The Workshop on Exploiting Semantic Annotations for Information Retrieval (ESAIR) is paused. The Workshop on Automatic Knowledge Base Construction (AKBC) is focusing on acquisition tasks (see below). Semantic Web conferences typically do not include information retrieval. Current discussions and collaborations in knowledge graphs and semantics for IR are frequently happening but mostly in private conversations. This workshop would open up the discussion to the public, include the future generation of researchers, and solicit opinions from researchers of other communities.</p>
+<h1 id="theme-and-purpose">Theme and Purpose</h1>
+<p>This workshop focuses on the end-to-end utilization of knowledge graphs and semantics in text retrieval and IR-related downstream applications. The scope includes suggestions for <strong>acquisition</strong>, <strong>alignment</strong> and <strong>utilization</strong> of knowledge graphs and semantic resources for the purpose of optimizing end-to-end performance of a system that responds to a user’s information need.</p>
+<ul>
+<li><p><strong>Acquisition</strong> includes (but is not limited to) knowledge graph population and semantic resource construction with a special focus on enabling IR-related techniques and applications. Examples include domain/task-specific knowledge graph construction, knowledge representation, and query-time knowledge extraction.</p></li>
+<li><p><strong>Alignment</strong> includes (but is not limited to) the semantic annotation process such as entity linking of short keyword queries or relation extraction for satisfying information needs. It also includes information integration, ontology matching, entity search, and knowledge graph selection based on an information need.</p></li>
+<li><p><strong>Utilization</strong> includes (but is not limited to) using knowledge graphs and semantics in text-centric retrieval tasks. Examples are utilizing the knowledge graph to improve ad hoc document retrieval, question answering, factoid search, dialogue systems, event tracking, and retrieval of complex answers.</p></li>
+</ul>
+<p>This workshop aims to bring together researchers and practitioners within the IR field and related communities to discuss ongoing research and best practices with the goal of addressing open research challenges of this area. Its missions include:</p>
+<p>Facilitate meetings for researchers working on acquisition, alignment, and utilization.</p>
+<p>Serve as an incubator for long-term research on resource construction and end-to-end utilization.</p>
+<p>Act as a nursery for future tasks, applications, and evaluations that benefit from knowledge graphs and text retrieval.</p>
+<p>Collect datasets that support the study of IR algorithms in the context of knowledge graphs.</p>
+<p>Provide a voice and platform to the community.</p>
+<h1 id="appropriateness-for-sigir">Appropriateness for SIGIR</h1>
+<p>Entity retrieval from KGs has been a common IR research topic for many years <span class="citation"></span>. We are now moving towards utilizing such entities and KG information for text-centric retrieval tasks.</p>
+<p>With Google’s knowledge graph and Microsoft’s Santori, major players of the search engine market have a demonstrated interest in this topic. This also includes domain-specific knowledge graphs that are built for specific search tasks, such as those for academic search as published by Microsoft <span class="citation"></span> and by the Allen Institute of AI research <span class="citation"></span>. Alignment technologies such as entity linking and retrieval have also been a widely studied task in the SIGIR community. The Entity Recognition and Disambiguation (ERD) competition and workshop <span class="citation"></span> has been previously held at SIGIR.</p>
+<p>The developments around KGs have motivated a new breakthrough in utilizing semantics in text retrieval and analysis. Recent top-tier IR conferences feature many papers on search systems exploiting knowledge graphs <span class="citation"></span>. Some of these systems have also participated in TREC evaluations  <span class="citation"></span>. SIGIR is therefore the most appropriate venue to host this workshop.</p>
+<h1 id="planned-activities-and-a-tentative-schedule-of-events">Planned Activities and a Tentative Schedule of Events </h1>
+<p>We plan to organize this workshop as mini-conference and discussion panel. The tentative list of activities are:</p>
+<ul>
+<li><p>(60 min) 2 invited talks,</p></li>
+<li><p>(90 min) 5 short oral paper presentations,</p></li>
+<li><p>(180 min) a poster session or spotlight talks,</p></li>
+<li><p>(45 min) a discussion panel, and</p></li>
+<li><p>(Unlimited) a social event afterwards.</p></li>
+</ul>
+<p><strong>Selection Process:</strong> The oral and poster papers will be selected through a peer review process by our program committee. We will bias the selection towards papers with innovative and potentially transformational ideas. Most welcome are work-in-progress papers with potential for next year’s SIGIR conference, that are seeking feedback. We limit the submission length to 4 pages with the option to share papers through online proceedings.</p>
+<p><strong>Presentation:</strong> All accepted papers will be presented as posters. Those with highest potential to spark discussions will be selected for oral presentation.</p>
+<p><strong>Invited talks:</strong> We plan to invite speakers from NLP and Linked Data to start a knowledge exchange.</p>
+<p><strong>Discussion Panel:</strong> The panel discussion will host discussions on the issues raised in this workshop proposal, for example:</p>
+<ul>
+<li><p>Currently available knowledge graphs, semantic resources, and alignment techniques that have been used in IR tasks;</p></li>
+<li><p>Lessons learned when trying to use knowledge graphs and semantics in IR tasks;</p></li>
+<li><p>Currently available benchmarks and datasets in this area;</p></li>
+<li><p>The needs of knowledge graph and alignment techniques from the utilization aspect;</p></li>
+<li><p>Possible ways to encourage more task-oriented development of KG’s and corresponding techniques;</p></li>
+<li><p>Possible future benchmarks that can promote more IR-oriented knowledge acquisition and alignment;</p></li>
+<li><p>Possible ways to facilitate future research and reproducibility in this area;</p></li>
+<li><p>Important sub-tasks and components in entity-oriented IR systems, for example, the efficiency and effectiveness of the acquisition and alignment, and the choice of proper semantics for specific IR tasks.</p></li>
+</ul>
+<h1 id="organizers">Organizers</h1>
+<p><strong>Prof. Dr. Laura Dietz</strong><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a> is an Assistant Professor at University of New Hampshire, where she teaches Information Retrieval and Data Science. Before that she was working in the Data and Web Science group at Mannheim University and with Prof. Bruce Croft and Prof. Andrew McCallum at University of Massachusetts. She obtained her Ph.D. from the Max Planck Institute for Informatics. Her research focuses on information retrieval on knowledge-centric information needs. Her scientific contributions span from query expansion with entities for ad hoc retrieval to the prediction of influences in citation graphs. She is the lead coordinator of TREC CAR <span class="citation"></span>.</p>
+<p><strong>Chenyan Xiong</strong> is a fifth-year Ph.D. student at Language Technologies Institute (LTI), Carnegie Mellon University, working with Professor Jamie Callan. His research interests center around information retrieval, with the main focus on using knowledge graphs and other semantic resources to improve text understanding in search engines. He has published multiple papers in this area and frequently serves as PC members in SIGIR and ACL.</p>
+<p><strong>Dr. Edgar Meij</strong> is a senior scientist at Bloomberg L.P. Before this, he was a research scientist at Yahoo Labs and a postdoc at the University of Amsterdam, where he also obtained his Ph.D. He has published 60+ peer-reviewed papers at top international venues such as SIGIR, WSDM, ISWC, and CIKM on all applications and aspects of knowledge graphs, entity linking, and semantic search.</p>
+<p><strong>Endorsers and program committee.</strong> We have received much interest and exciting feedback from the research community—not only from IR researchers but also from those from the semantic web, information extraction, and NLP fields. Table [tab:endorser] lists researchers who are endorsing this workshop proposal. The potential program committee members of this workshop are listed in Table [tab:pc]; these researchers have already accepted our invitation contingent on the acceptance of this workshop proposal.</p>
+<p>[t]</p>
+<p><span>1</span></p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong><span>Name</span> &amp; <strong><span>Affiliation</span> &amp; <strong><span>Expertise</span><br />
+Eugene Agichtein &amp; Emory University &amp; IR, Question Answering<br />
+James Allan &amp; University of Massachusetts, Amherst &amp; IR<br />
+Krisztian Balog &amp; University of Stavanger &amp; IR, Semantic Search<br />
+Klaus Berberich &amp; HTW Saar &amp; IR<br />
+Chris Bizer &amp; University of Mannheim &amp; Linked Data<br />
+Svein Bratsberg &amp; Norwegian University of Science and Technology &amp; DB<br />
+David Carmel &amp; Yahoo! &amp; IR<br />
+William Cohen &amp; Carnegie Mellon University &amp; Information Extraction<br />
+Bruce Croft &amp; University of Massachusetts, Amherst &amp; IR<br />
+Silviu Cucerzan &amp; Microsoft &amp; NLP, IR, Linked Data<br />
+Gianluca DeMartini &amp; University of Sheffield &amp; IR, Semantic Search<br />
+Fernando Diaz &amp; Microsoft &amp; IR<br />
+Ben Van Durme &amp; Johns Hopkins University &amp; NLP, IR<br />
+Oren Etzioni &amp; Allen Institute of AI &amp; IE, Open Information Extraction<br />
+Heng Ji &amp; Rensselaer Polytechnic Institute &amp; NLP, Information Extraction<br />
+Oren Kurland &amp; Israel Institute of Technology &amp;IR<br />
+Hang Li &amp; Huawei Technologies &amp; IR, NLP, Semantic Matching<br />
+Paul McNamee &amp; John Hopkins University &amp; NLP, IR<br />
+Gerhard Weikum &amp; Max Planck Institute for Informatics &amp; Linked Data<br />
+</strong></strong></strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<p><span>1</span></p>
+<table>
+<tbody>
+<tr class="odd">
+<td align="left"><strong><span>Name</span> &amp; <strong><span>Affiliation</span> &amp; <strong><span>Expertise</span><br />
+Dyaa Albakour &amp; Signal Media &amp; IR, Text Analytics, Social Media<br />
+Avishek Anand &amp; L3S Research Center &amp; IR, Linked Data<br />
+Jeff Dalton &amp; Google &amp; IR, Entity-Oriented Search, Question Answering<br />
+Bahavana Dalvi &amp; Allen Institute of AI &amp; IE, Knowledge base Construction<br />
+Chris Develder &amp; Ghent University, iMinds &amp; IR, Information Extraction<br />
+Hui Fang &amp; University of Delaware &amp; IR, Entity-Oriented Search<br />
+Djoerd Hiemstra &amp; University of Twente &amp; IR, Web Search<br />
+Johannes Hoffart &amp; Max Planck &amp; IE, Knowledge Harvesting<br />
+Ioana Hulpus &amp; Mannheim University &amp; Linked Data, Social Media<br />
+Alexander Kotov &amp; Wayne State University &amp; IR, Entity Search<br />
+Christina Lioma &amp; University of Copenhagen &amp; IR, NLP<br />
+Zhiyuan Liu &amp; Tsinghua University &amp; NLP, Knowledge Representations<br />
+Achim Rettinger &amp; Karlsruhe Institute of Technology &amp; SW, Knowledge Representations<br />
+Vinay Setti &amp; Aalborg University &amp; IR<br />
+Jun Xu &amp; Chinese Academic of Science &amp;IR, Semantic Search<br />
+Tongfei Chen &amp; Johns Hopkins University &amp; IE, Question Answering<br />
+Mostafa Deghani &amp; University of Amsterdam &amp; IR, Exploratory Search<br />
+John Foley &amp; University of Massachusetts, Amherst &amp; IR, Information Extraction<br />
+Faegheh Hasibi &amp; Norwegian University of Science and Technology &amp; IR, Entity<br />
+Xiangnan He &amp; National University of Singapore &amp; IR, Information Extraction<br />
+Lifu Huang &amp; Rensselaer Polytechnic Institute &amp; NLP, Events and Entities<br />
+Federico Nanni &amp; Mannheim University &amp; IR, Digital History<br />
+Pushpendre Rastogi &amp; Johns Hopkins University &amp; NLP, Entity Search<br />
+Hadas Raviv &amp; Technion, Haifa, Israel &amp; IR, Entity-Oriented Search<br />
+Ridho Reinada &amp; University of Amsterdam &amp; IR, Entity Aspects<br />
+Lydia Weiland &amp; University of Mannheim &amp; IR, Computer Vision<br />
+Nikos Voskarides &amp; University of Amsterdam &amp; IR, Information Extraction<br />
+</strong></strong></strong></td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="related-workshops">Related Workshops</h1>
+<p>To our knowledge, no workshop on leveraging KGs for textual retrieval tasks has been held before. While a large number of workshops and tutorials on KGs were held in different venues, they focus either on KG construction, semantic search, or other applications, i.e., none of them with the focus on information retrieval that we suggest. Our main focus here lies on the use of KGs for text-centric information retrieval and analysis and we invite researchers with expertise in information extraction, semantic search, and entity retrieval with the goal of promoting joint research.</p>
+<p><strong>ESAIR</strong> is the most related workshop as it focuses on the exploitation of semantic annotations in information retrieval. It has been successfully hosted at CIKM for many years, but the series is currently paused. Our workshop intends to continue its heritage on “Exploiting Semantic Annotations in IR” with a broader scope on graph-structured knowledge with respect to constructions, alignment, and utilization for IR tasks.</p>
+<p><strong>AKBC</strong> is about automatic knowledge graph construction and population, which focuses on information extraction techniques. It is a very successful workshop and has been held in multiple conference such as NAACL, NIPS, and CIKM. Its focus on construction is complementary to our focus on utilization.</p>
+<p><strong>ERD</strong> focuses on entity linking in long (document) and short (query) texts. It has been held once in SIGIR 2014. In fact, many of the query entity linking systems used and presented in the ERD workshop have served as a pre-processing step in many entity-oriented search systems <span class="citation"></span>. We note that many representatives from this community have been included in our program committee. Two of the organizers of this workshop proposal have already started a tutorial series on this topic and these tutorials on utilizing knowledge graphs for text-centric information retrieval have been held at ICTIR 2016 and WSDM 2017 <span class="citation"></span> with great success.</p>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Main Contact<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>
+  
 </body>
