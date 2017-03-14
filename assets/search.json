@@ -1,0 +1,71 @@
+
+
+[
+  
+  
+    
+    
+  
+    
+    
+  
+  
+  
+  {
+    "title": "KG4IR workshop in SIGIR 2017",
+    "excerpt": "\n",
+    "content": "Alembic is a starting point for Jekyll projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it. Fork on GitHub  Install Alembic Tip me $5 Features  Available as a starter kit or as Jekyll 3.3 theme gem Tested in all major browsers, that includes IE as well as Edge Extensive set of shortcodes to include various elements; such as buttons, icons, figure images and more Solid typographic framework from Sassline Configurable navigation via a single file Modular Jekyll components Easily interchangeable sidebar Post category support in the form of a single post index page grouped by category Built in live search using JavaScript Contact form built in using Formspree Works on GitHub Pages out of the box Built with Jekyll 3.3 Designed with Siteleaf in mind Has 9 of the most popular networks as performant sharing buttons Has documentation Examples Here are a few examples of Alembic out in the wild being used in a variety of ways:  bitpodcast.com katiesimonemusic.com joelcagedesign.com bawejakunal.github.io case2111.github.io www.10people.co.uk Installation As a Boilerplate / Fork  Fork the repo Clone down the repo with $ git clone git@github.com:username/reponame.git Delete the demo/ folder and screenshot.png files Change the CNAME record to your projects’ record Install bundler with $ gem install bundler Install gems with $ bundle install Run Jekyll with $ bundle exec jekyll serve --watch Begin hacking for your project As a Jekyll 3.3 theme gem  Download the starter /demo content, quick download link Install bundler with $ gem install bundler Install gems with $ bundle install Run Jekyll with $ bundle exec jekyll serve --watch Begin hacking for your project Boilerplate &amp; Theme differences The boilerplate kit is better for more drastic hacking and changes, a project that’s quite different to any other and needs a lot of custom work done. Additionally you’ll only be able to use this method if you want to host it on GitHub Pages, as themes can’t be submitted… yet. Using the theme will allow you to receive updates made and will be more programmatic. To make your own changes you’ll need to overwrite the files with your own. For example: If I want to change the colours of my site I’ll need to copy the _colors.scss file and create my own in _sass/colors.scss with my own changes. This is the same for all files within the theme, which means your own project will be more lean than if you were to use the boilerplate. ",
+    "url": "/back_index/"
+  },
+  
+  {
+    "title": "Categories",
+    "excerpt": "Category index\n",
+    "content": " ",
+    "url": "/categories/"
+  },
+  
+  {
+    "title": "CALL FOR PARTICIPATION",
+    "excerpt": "\n",
+    "content": "Large, publicly available knowledge graphs (KGs) have given rise to many successful improvements on traditional information retrieval tasks such as ad hoc document retrieval. This workshop focuses on the end-to-end utilization of knowledge graphs and semantics in text retrieval and other IR-related applications. Its scope covers the acquisition, the alignment, and the utilization of knowledge graphs and semantic resources for the purpose of optimizing end-to-end performance of a system that responds to a user’s information need. Examples of such technologies and applications include entity ranking, entity linking, entity-based retrieval models, entity recommendation, document filtering, knowledge graph population, and more. This workshop features discussions and presentations on innovative ideas for new methods, suggestions for shared tasks and benchmarks, position papers, as well as reports on practical experiences with KG technology both from academia and industry. Topics of this workshop include but are not limited to:  Acquisition for IR applications  knowledge graph population for IR  domain/task-specific knowledge graph construction  knowledge representation for IR  query-time knowledge extraction   Alignment with and for queries  entity linking for short queries and documents  relation extraction for query and document modeling  information integration and ontology matching  entity search  subgraph ranking   Utilization for text retrieval  ad hoc document retrieval  passage retrieval  question answering  dialogue systems  event tracking and summarization  complex answer retrieval   Activities This workshop features keynotes, a discussion panel, as well as poster and oral presentations.  Keynotes will be presented by invited speakers from industry and/or academia who are leading experts in relevant topics. The panel discussion will host discussions about current progress, processes, challenges, joint efforts, and potential research directions in KG4IR. Oral presentations will feature presentations from accepted papers with the option of also presenting them as posters; those with highest potential to spark discussions will be favored in the selection process. Paper Submission Important Dates ",
+    "url": "/cfp/"
+  },
+  
+  {
+    "title": "Important Dates (Tentative)",
+    "excerpt": "\n",
+    "content": "In order to accommodate time for visas and travel arrangements while also providing the option for “hot off the press” papers, we offer two submission/review cycles.  1st Submission deadline: May 1, 2017 1st Reviews due:  May 22, 2017  1st Notifications:  June 2, 2017 2nd Submission deadline: June 28, 2017 2nd Reviews due:  July 18, 2017  2nd Notifications:  July 25, 2017 Camera-ready version: TBD Workshop day:  August 11, 2017 ",
+    "url": "/dates/"
+  },
+  
+  {
+    "title": "Elements",
+    "excerpt": "A demo of Markdown and HTML includes\n",
+    "content": "Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 A small element A link Lorem ipsum dolor sit amet, consectetur adip* isicing elit, sed do eiusmod *tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in a link reprehenderit in voluptate velit esse cillum bold text dolore eu fugiat nulla pariatur. Excepteur span element sint occaecat cupidatat non proident, sunt italicised text in culpa qui officia deserunt mollit anim id some code est laborum.  An item An item An item An item An item Item one Item two Item three Item four Item five A simple blockquote &lt;div&gt; &lt;span&gt;Some example code&lt;/span&gt; &lt;/div&gt; Single line of code HTML Includes Contact form   Name: *    Email Address: *    Message: *      \t\t\t\t* indicates a required field \t\t\t\t \t\t\t\t \t\t\t\t  Please enable JavaScript to use the form. Demo map embed  Button include A button Icon include Video include  Image includes  &lt;img class=\"image\" src=\"https://unsplash.it/300/400?image=123\" style=\"width: 200px;\"alt=\"Image - This image has a caption\"&gt; This image has a caption    ",
+    "url": "/elements/"
+  },
+  
+  {
+    "title": "Organizing",
+    "excerpt": "\n",
+    "content": "Workshop Organizers   Prof. Laura Dietz, is an Assistant Professor at University of New Hampshire where she teaches Information Retrieval and text-centric Machine Learning. She graduated from the Max Planck Institute for Informatics and was a research scientist at the Data and Web Science group at Mannheim University and the CIIR at University of Massachusetts. Her research focuses on information retrieval for knowledge-centric information needs. She is also the lead coordinator of TREC CAR.  Chenyan Xiong is a fifth-year Ph.D. student at Language Technologies Institute (LTI), Carnegie Mellon University, working with Professor Jamie Callan. His research interests center around information retrieval, with the main focus on using knowledge graphs and other semantic resources to improve text understanding in search engines. He has published multiple papers in this area and frequently serves as PC members in SIGIR and ACL.  Edgar Meij is a senior scientist at Bloomberg L.P. Before this, he was a research scientist at Yahoo Labs and a postdoc at the University of Amsterdam, where he also obtained his Ph.D. He has published 60+ peer-reviewed papers at top international venues such as SIGIR, WSDM, ISWC, and CIKM on all applications and aspects of knowledge graphs, entity linking, and semantic search. Program Committee  Dyaa Albakour, Signal Media Avishek Anand, L3S Research Center Jeff Dalton, Google Bhavana Dalvi, Allen Institute of AI Chris Develder, Ghent University,iMinds Hui Fang, University of Delaware Djoerd Hiemstra, University of Twente Johannes Hoffart, Max Planck Ioana Hulpus, Mannheim University Alexander Kotov, Wayne State University Christina Lioma, University of Copenhagen Zhiyuan Liu, Tsinghua University Achim Rettinger, Karlsruhe Institute of Technology Vinay Setti, Aalborg University Jun Xu, Chinese Academic of Science Tongfei Chen, Johns Hopkins University Mostafa Deghani, University of Amsterdam John Foley, University of Massachusetts,Amherst Faegheh Hasibi, Norwegian University of Science and Technology Lifu Huang, Rensselaer Polytechnic Institute Federico Nanni, Mannheim University Pushpendre Rastogi, Johns Hopkins University Hadas Raviv, Technion,Haifa,Israel Ridho Reinada, University of Amsterdam Lydia Weiland, University of Mannheim Nikos Voskarides, University of Amsterdam ",
+    "url": "/organization/"
+  },
+  
+  {
+    "title": "Search",
+    "excerpt": "Search for a page or post you’re looking for\n",
+    "content": " ",
+    "url": "/search/"
+  },
+  
+  {
+    "title": "Paper Submission",
+    "excerpt": "\n",
+    "content": "We solicit short papers describing innovative ongoing research, position papers, suggestions for shared tasks and benchmarks, as well as practical reports about application of knowledge graph technology. Papers have to be: limited to 4 pages single-blind (non-anonymous) formatted in the new ACM template and submitted as PDF through the EasyChair Conference Submission System Note that at least one author of each accepted paper must register for the Workshop. All accepted papers shall be included in Proceedings through CEUR-WS.org for online publication and distribution before the workshop day. Review Criteria Contributions will be evaluated according to criteria of novelty, soundness, and potential: Novelty: Is this something the community may not know and worth knowing? Soundness: Is it believably true or at least convincingly argued? Potential: Is this worth working on and can it be turned into a nice paper in the future? ",
+    "url": "/submit/"
+  }
+  
+]
+
