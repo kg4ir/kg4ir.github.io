@@ -89,6 +89,10 @@
       </li>
     
       <li class="item  item--nav">
+        <a href="http://ceur-ws.org/Vol-1883/" title="Page - Proceedings">Proceedings</a>
+      </li>
+    
+      <li class="item  item--nav">
         <a href="/dates/" title="Page - Important Dates">Important Dates</a>
       </li>
     
