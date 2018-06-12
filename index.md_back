@@ -7,12 +7,9 @@
 		
 
 		
-			<!-- Begin Jekyll SEO tag v2.4.0 -->
-<title>KG4IR | The first workshop of Knowledge Graph and Semantics for Text Analysis and Retrieval.</title>
-<meta name="generator" content="Jekyll v3.7.3" />
+			<!-- Begin Jekyll SEO tag v2.1.0 -->
+<title>KG4IR - The first workshop of Knowledge Graph and Semantics for Text Analysis and Retrieval.</title>
 <meta property="og:title" content="KG4IR" />
-<meta name="author" content="Chenyan Xiong and Laura Dietz" />
-<meta property="og:locale" content="en_US" />
 <meta name="description" content="The first workshop of Knowledge Graph and Semantics for Text Analysis and Retrieval." />
 <meta property="og:description" content="The first workshop of Knowledge Graph and Semantics for Text Analysis and Retrieval." />
 <link rel="canonical" href="http://localhost:4000/index.md_back" />
@@ -20,7 +17,15 @@
 <meta property="og:site_name" content="KG4IR" />
 <meta property="og:image" content="http://localhost:4000/pic.theme.jpg" />
 <script type="application/ld+json">
-{"description":"The first workshop of Knowledge Graph and Semantics for Text Analysis and Retrieval.","author":{"@type":"Person","name":"Chenyan Xiong and Laura Dietz"},"@type":"WebPage","url":"http://localhost:4000/index.md_back","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/pic/sigir_title.png"},"name":"Chenyan Xiong and Laura Dietz"},"image":"http://localhost:4000/pic.theme.jpg","headline":"KG4IR","@context":"http://schema.org"}</script>
+{"@context": "http://schema.org",
+"@type": "WebPage",
+"headline": "KG4IR",
+"image": "http://localhost:4000/pic.theme.jpg",
+"description": "The first workshop of Knowledge Graph and Semantics for Text Analysis and Retrieval.",
+"publisher": {"@type": "Organization",
+"logo": {"@type": "ImageObject",
+"url": "http://localhost:4000/pic/sigir_title.png"}},
+"url": "http://localhost:4000/index.md_back"}</script>
 <!-- End Jekyll SEO tag -->
 
 		
@@ -77,6 +82,10 @@
     
       <li class="item  item--nav">
         <a href="/submit/" title="Page - Submit and Dates">Submit and Dates</a>
+      </li>
+    
+      <li class="item  item--nav">
+        <a href="/programs/" title="Page - Tentative Programs">Tentative Programs</a>
       </li>
     
       <li class="item  item--nav">
